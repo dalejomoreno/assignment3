@@ -84,7 +84,30 @@ padding: 20px;
 .features{
     padding: 30px;
 }
+#nutrition {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
 
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #3d1a06;
+    color: #fff;
+}
 #logo img {
     max-width: 100px;
     height: auto;
